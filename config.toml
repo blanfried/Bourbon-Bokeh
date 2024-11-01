@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "http://bourbon-bokeh.com"
 languageCode = "en-us"
 title = "Icelab Studio"
 theme = "icelab-hugo"
@@ -28,23 +28,35 @@ URL = "about"
 weight = 2
 
 [[menu.main]]
-name = "Works"
-URL = "works"
+name = "Bartending"
+URL = "bartending"
 weight = 3
+
+[[menu.main]]
+name = "Photography"
+URL = "photography"
+weight = 4
+
+[[menu.main]]
+name = "Gallery"
+URL = "gallery"
+weight = 5
 
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 4
+weight = 6
+
+
 
 
 #################### default parameters ##############################
 [params]
-logo = "images/logo.png"
+logo = "images/bb-images/logos/horizontal/svg/Light.svg"
 home = "Home"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "TheBaerBønes"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # footer content
@@ -52,7 +64,7 @@ footer_content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
 
 # google map
 [params.map]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
