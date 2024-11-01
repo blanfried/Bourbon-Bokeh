@@ -1,5 +1,5 @@
 [build]
-  publish = "bourbon-bokeh/public"
+  publish = "public"
   command = "hugo"
   
 [build.environment]
