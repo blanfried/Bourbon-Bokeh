@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Icelab Studio</title>
+    <title>Bourbon &amp; Bokeh</title>
     <link>http://bourbon-bokeh.com/</link>
-    <description>Recent content on Icelab Studio</description>
+    <description>Recent content on Bourbon &amp; Bokeh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Aug 2019 15:38:38 +0600</lastBuildDate><atom:link href="http://bourbon-bokeh.com/index.xml" rel="self" type="application/rss+xml" />

@@ -1,8 +1,8 @@
 ######################## default configuration ####################
 baseURL = "http://bourbon-bokeh.com"
 languageCode = "en-us"
-title = "Icelab Studio"
-theme = "icelab-hugo"
+title = "Bourbon & Bokeh"
+theme = "bourbon-bokeh"
 summaryLength = "10"
 
 
