@@ -52,9 +52,9 @@
         </div>
       </div>
       {{ range .service_item }}
-      <div class="col-lg-4 col-md-6" z-index="1">
+      <div class="col-lg-4 col-md-6">
         <!-- service item -->
-        <div class="service-item" z-index="1">
+        <div class="service-item">
           <div class="icon">
             <img src="{{ .icon }}" alt="">
           </div>
@@ -73,18 +73,16 @@
 
 {{ if .Site.Data.homepage.guide.enable }}
 {{ with .Site.Data.homepage.guide }}
-<section class="hero-area1" data-parallax="scroll" data-image-src="{{ .bg_image | absURL }}" data-z-index="0"
-  data-speed="0.4">
+<section class="section cta1">
   <div class="container">
     <div class="row">
-      <div class="col-lg-5">
+      <div class="col-12 text-center">
         <div class="content">
-          <h6 class="text-white" data-aos="fade-up" data-aos-delay="550">{{ .subtitle | markdownify }}</h6>
-          <h1 class="text-white" data-aos="fade-up" data-aos-delay="200">{{ .title | markdownify }}</h1>
-          <p class="text-white" data-aos="fade-up" data-aos-delay="500">{{ .content | markdownify }}</p>
+          <h2 class="text-white">{{ .title | markdownify }}</h2>
+          <p class="text-white mb-4 mx-auto">{{ .content | markdownify }}</p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .link | absURL }}" class="btn btn-primary" data-aos="fade-up" data-aos-delay="500">{{ .label }}</a>
+          <a href="{{ .link | absURL }}" class="btn btn-dark">{{ .label }}</a>
           {{ end }}
           {{ end }}
         </div>
