@@ -37,15 +37,11 @@ name = "Photography"
 URL = "photography"
 weight = 4
 
-[[menu.main]]
-name = "Gallery"
-URL = "gallery"
-weight = 5
 
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 6
+weight = 5
 
 
 
