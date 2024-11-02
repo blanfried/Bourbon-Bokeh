@@ -18,9 +18,9 @@ body{
 .section-title{
     h6{
         font-family: $secondary-font;
-        letter-spacing: 5px;
+        letter-spacing: 1px;
         color: $primary-color;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         span{
             display: inline-block;
         }

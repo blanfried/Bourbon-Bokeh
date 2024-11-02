@@ -2,11 +2,11 @@
 banner:
   enable : true
   bg_image: "images/hero/hero-bg-2.jpg"
-  title : "Creative<br>Studio"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua."
+  subtitle : "Cocktail Creation & Content"
+  title : "Honest<br>Bartending"
+  content : "Aligning Your Drink Aesthetic With Your Content Aesthetic"
   button:
-    enable : true
+    enable : false
     label : "Our Works"
     link : "works"
 
