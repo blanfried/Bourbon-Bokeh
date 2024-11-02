@@ -28,9 +28,10 @@
         font-size: 40px; // Desktop default size
         max-width: 100%; // Ensures it does not extend beyond the screen
         word-wrap: break-word; // Breaks long words to fit within the container
+        display: block;
     
         @include mobile {
-            font-size: 30px; // Adjusted size for mobile screens
+            font-size: 26px; // Adjusted size for mobile screens
         }
     }
 }
