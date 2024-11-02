@@ -1,5 +1,5 @@
-######################## Banner ############################
-banner:
+######################## Character ############################
+character:
   enable : true
   bg_image: "images/hero/hero-bg-2.jpg"
   subtitle : "Cocktail Photography / Creation"
@@ -10,7 +10,7 @@ banner:
     label : "Our Works"
     link : "works"
 
-################### Service #################################
+################### Problem #################################
 service:
   enable : true
   bg_image : "images/shape-big.png"
@@ -32,14 +32,25 @@ service:
       icon : "images/icon-3.svg"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
 
+######################## Guide ############################
+guide:
+  enable : true
+  bg_image: "images/hero/hero-bg-2.jpg"
+  subtitle : "Cocktail Photography / Creation"
+  title : "Honest<br>Bartending"
+  content : "Aligning Your Drink and Content Aesthetic"
+  button:
+    enable : false
+    label : "Our Works"
+    link : "works"
 
-############################# portfolio ############################
+############################# gallery ############################
 gallery:
   enable : true
   subtitle : "Gallery"
   title : "Some of Our Favorite Shots"
 
-  # portfolio item comes from `content/work/` folder
+  # portfolio item comes from `content/gallery/` folder
 
 
 ############################ testimonial ###########################

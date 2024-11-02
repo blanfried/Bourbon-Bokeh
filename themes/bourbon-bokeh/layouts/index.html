@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-{{ if .Site.Data.homepage.banner.enable }}
-{{ with .Site.Data.homepage.banner }}
+{{ if .Site.Data.homepage.character.enable }}
+{{ with .Site.Data.homepage.character }}
 <section class="hero-area" data-parallax="scroll" data-image-src="{{ .bg_image | absURL }}" data-z-index="1"
   data-speed="0.4">
   <div class="container">
@@ -70,6 +70,31 @@
 </section>
 {{ end }}
 {{ end }}
+
+{{ if .Site.Data.homepage.guide.enable }}
+{{ with .Site.Data.homepage.guide }}
+<section class="hero-area" data-parallax="scroll" data-image-src="{{ .bg_image | absURL }}" data-z-index="1"
+  data-speed="0.4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="content">
+          <h6 class="text-white" data-aos="fade-up" data-aos-delay="550">{{ .subtitle | markdownify }}</h6>
+          <h1 class="text-white" data-aos="fade-up" data-aos-delay="200">{{ .title | markdownify }}</h1>
+          <p class="text-white" data-aos="fade-up" data-aos-delay="500">{{ .content | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-primary" data-aos="fade-up" data-aos-delay="500">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
 
 
 {{ if .Site.Data.homepage.gallery.enable }}
