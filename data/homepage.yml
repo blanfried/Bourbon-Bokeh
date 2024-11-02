@@ -35,7 +35,7 @@ service:
 ######################## Guide ############################
 guide:
   enable : true
-  bg_image: "images/hero/hero-bg-2.jpg"
+  bg_image: "images/hero/hero-bg-3.jpg"
   subtitle : "Cocktail Photography / Creation"
   title : "Honest<br>Bartending"
   content : "Aligning Your Drink and Content Aesthetic"
