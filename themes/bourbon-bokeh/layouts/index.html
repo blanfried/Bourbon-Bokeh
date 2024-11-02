@@ -36,8 +36,8 @@
 {{ end }}
 {{ end }}
 
-{{ if .Site.Data.homepage.service.enable }}
-{{ with .Site.Data.homepage.service }}
+{{ if .Site.Data.homepage.problem.enable }}
+{{ with .Site.Data.homepage.problem }}
 <section class="service section" id="services">
   <div class="shape-big">
     <img src="{{ .bg_image | absURL }}" class="img-fluid" alt="big-shape">
@@ -73,7 +73,7 @@
 
 {{ if .Site.Data.homepage.guide.enable }}
 {{ with .Site.Data.homepage.guide }}
-<section class="section cta1">
+<section class="section cta">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -93,6 +93,42 @@
 {{ end }}
 {{ end }}
 
+
+
+{{ if .Site.Data.homepage.plan.enable }}
+{{ with .Site.Data.homepage.plan }}
+<section class="service section" id="services">
+  <div class="shape-big">
+    <img src="{{ .bg_image | absURL }}" class="img-fluid" alt="big-shape">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <!-- section title -->
+        <div class="section-title">
+          <h6 class="sm"><span data-aos="text-reveal" data-aos-once="true">{{ .subtitle | markdownify }}</span></h6>
+          <h1><span data-aos="text-reveal" data-aos-once="true">{{ .title | markdownify }}</span></h1>
+        </div>
+      </div>
+      {{ range .plan_item }}
+      <div class="col-lg-4 col-md-6">
+        <!-- service item -->
+        <div class="service-item">
+          <div class="icon">
+            <img src="{{ .icon }}" alt="">
+          </div>
+          <div class="content">
+            <h6 class="sm">{{ .name | markdownify }}</h6>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
 
 
 {{ if .Site.Data.homepage.gallery.enable }}
@@ -132,6 +168,27 @@
 </section>
 {{ end }}
 
+{{ if .Site.Data.homepage.call_to_action.enable }}
+{{ with .Site.Data.homepage.call_to_action }}
+<section class="section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="content">
+          <h2 class="text-white">{{ .title | markdownify }}</h2>
+          <p class="text-white mb-4 mx-auto">{{ .content | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-dark">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
 
 {{ if .Site.Data.homepage.testimonial.enable }}
 {{ with .Site.Data.homepage.testimonial }}
@@ -180,27 +237,5 @@
 {{ end }}
 {{ end }}
 
-
-{{ if .Site.Data.homepage.call_to_action.enable }}
-{{ with .Site.Data.homepage.call_to_action }}
-<section class="section cta">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <div class="content">
-          <h2 class="text-white">{{ .title | markdownify }}</h2>
-          <p class="text-white mb-4 mx-auto">{{ .content | markdownify }}</p>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .link | absURL }}" class="btn btn-dark">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
 
 {{ end }}

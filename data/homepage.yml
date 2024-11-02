@@ -11,7 +11,7 @@ character:
     link : "works"
 
 ################### Problem #################################
-service:
+problem:
   enable : true
   bg_image : "images/shape-big.png"
   subtitle : "What We Do"
@@ -43,6 +43,29 @@ guide:
     enable : false
     label : "Our Works"
     link : "works"
+
+################### Plan #################################
+plan:
+  enable : true
+  bg_image : "images/shape-big.png"
+  subtitle : "What We Do"
+  title : "Design Is How<br>Things Work"
+  plan_item:
+    # service item loop
+    - name : "UX & UI Design"
+      icon : "images/icon-1.svg"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+
+    # service item loop
+    - name : "PSD to HTML"
+      icon : "images/icon-2.svg"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      
+    # service item loop
+    - name : "Wordpress"
+      icon : "images/icon-3.svg"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+
 
 ############################# gallery ############################
 gallery:
