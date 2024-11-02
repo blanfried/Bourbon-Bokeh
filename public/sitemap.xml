@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://bourbon-bokeh.com/gallery/portfolio-1/</loc>
-    <lastmod>2019-08-29T15:38:38+06:00</lastmod>
-  </url><url>
     <loc>http://bourbon-bokeh.com/bartending/</loc>
     <lastmod>2019-08-29T15:38:38+06:00</lastmod>
   </url><url>
@@ -15,6 +12,9 @@
     <lastmod>2019-08-29T15:38:38+06:00</lastmod>
   </url><url>
     <loc>http://bourbon-bokeh.com/contact/</loc>
+    <lastmod>2019-08-29T15:38:38+06:00</lastmod>
+  </url><url>
+    <loc>http://bourbon-bokeh.com/gallery/portfolio-1/</loc>
     <lastmod>2019-08-29T15:38:38+06:00</lastmod>
   </url><url>
     <loc>http://bourbon-bokeh.com/gallery/portfolio-5/</loc>
