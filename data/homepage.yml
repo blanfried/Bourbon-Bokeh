@@ -34,10 +34,10 @@ service:
 
 
 ############################# portfolio ############################
-portfolio:
+gallery:
   enable : true
-  subtitle : "Portfolio"
-  title : "Our Recent Works"
+  subtitle : "Gallery"
+  title : "Some of Our Favorite Shots"
 
   # portfolio item comes from `content/work/` folder
 

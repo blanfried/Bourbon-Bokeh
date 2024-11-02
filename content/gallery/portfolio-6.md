@@ -2,7 +2,7 @@
 title: "Break World"
 date: 2019-08-29T15:38:38+06:00
 draft: false
-image: "images/portfolios/portfolio-6.jpg"
+image: "images/gallery/shot-6.jpg"
 company: "Absolut Inc."
 client: "Julia Robertson"
 category: "Investment, Business"

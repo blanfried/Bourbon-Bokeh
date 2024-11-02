@@ -1,8 +1,8 @@
 ---
-title: "Astrography"
+title: "Darlington"
 date: 2019-08-29T15:38:38+06:00
 draft: false
-image: "images/portfolios/portfolio-1.jpg"
+image: "images/gallery/shot-1.jpg"
 company: "Absolut Inc."
 client: "Julia Robertson"
 category: "Investment, Business"
