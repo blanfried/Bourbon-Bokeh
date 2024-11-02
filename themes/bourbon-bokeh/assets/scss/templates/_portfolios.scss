@@ -23,6 +23,16 @@
         bottom: -12%;
         z-index: -1;
     }
+    h1 {
+        font-size: 40px;
+        font-size: 40px; // Desktop default size
+        max-width: 100%; // Ensures it does not extend beyond the screen
+        word-wrap: break-word; // Breaks long words to fit within the container
+    
+        @include mobile {
+            font-size: 30px; // Adjusted size for mobile screens
+        }
+    }
 }
 
 .work-single{
