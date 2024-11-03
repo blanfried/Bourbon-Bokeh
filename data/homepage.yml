@@ -28,7 +28,7 @@ guide:
   content1 : "this is her photo and those are his hands, oulala"
   button:
     enable : true
-    label : "About Us"
+    label : "Learn More"
     link : "about"
 
 ################### Plan #################################
