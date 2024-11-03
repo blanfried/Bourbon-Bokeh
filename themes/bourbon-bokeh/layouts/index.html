@@ -60,7 +60,7 @@
 
 {{ if .Site.Data.homepage.guide.enable }}
 {{ with .Site.Data.homepage.guide }}
-<section class="section cta">
+<section class="section ctaGuide">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -68,6 +68,7 @@
           <h6 class="text-white">{{ .subtitle | markdownify }}</h6>
           <h2 class="text-white">{{ .title | markdownify }}</h2>
           <p class="text-white mb-4 mx-auto">{{ .content | markdownify }}</p>
+          <p class="text-white mb-4 mx-auto smallText">{{ .content1 | markdownify }}</p>
           {{ if .button.enable }}
           {{ with .button }}
           <a href="{{ .link | absURL }}" class="btn btn-primary">{{ .label }}</a>

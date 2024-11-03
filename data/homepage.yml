@@ -22,9 +22,10 @@ problem:
 guide:
   enable : true
   bg_image: "images/hero/hero-bg-3.jpg"
-  subtitle : "Introducing"
+  subtitle : "The Duo behind Bourbon & Bokeh"
   title : "Amy & Nick"
-  content : "Meet Amy and Nick, the duo turning stunning cocktail photos into real-life experiences."
+  content : "Amy: Photographer Extraordinaire<br><br>Nick: The Cocktail Crafting Master."
+  content1 : "this is her photo and those are his hands, oulala"
   button:
     enable : true
     label : "About Us"
