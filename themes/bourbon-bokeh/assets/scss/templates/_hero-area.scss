@@ -94,7 +94,7 @@
                 transition: all 1s ease;
                 transform: translateY(-50%);
                 right: calc(-100% - 10px);
-                animation: dash-down 1s ease 1s infinite both;
+                // animation: dash-down 1s ease 1s infinite both;
             }
             @keyframes dash-down {
                 0%{
