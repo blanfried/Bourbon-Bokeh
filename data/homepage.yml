@@ -2,9 +2,9 @@
 character:
   enable : true
   bg_image: "images/hero/hero-bg-2.jpg"
-  subtitle : "Cocktail Photography / Creation"
-  title : "Honest<br>Bartending"
-  content : "Aligning Your Drink and Content Aesthetic"
+  subtitle : ""
+  title : "The<br>Honest<br>Bartender"
+  content : "Stunning Photos Deserve Equally Stunning Drinks"
   button:
     enable : false
     label : "Our Works"
