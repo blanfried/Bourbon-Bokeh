@@ -23,8 +23,8 @@ guide:
   enable : true
   bg_image: "images/hero/hero-bg-3.jpg"
   subtitle : "Introducing"
-  title : "Your Cocktail<br/>Dream Team"
-  content : "Say hello to Amy and Nick, the dynamic duo behind Bourbon & Bokeh. With Amy’s knack for capturing cocktails that pop off the screen and Nick’s talent for crafting recipes that look as good as they taste, we’re here to bridge the gap between stunning photos and the real-life drinks that match them. We’ll guide you from concept to cheers, making sure your brand’s story shines through every click and every sip."
+  title : "Amy & Nick"
+  content : "Meet Amy and Nick, the duo turning stunning cocktail photos into real-life experiences."
   button:
     enable : true
     label : "About Us"
