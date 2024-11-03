@@ -106,8 +106,8 @@
       <div class="col-12">
         <!-- section title -->
         <div class="section-title">
-          <h6 class="sm"><span data-aos="text-reveal" data-aos-once="true">{{ .subtitle | markdownify }}</span></h6>
-          <h1><span data-aos="text-reveal" data-aos-once="true">{{ .title | markdownify }}</span></h1>
+          <h6 class="sm"><span data-aos="fade-up" data-aos-delay="500">{{ .subtitle | markdownify }}</span></h6>
+          <h1><span data-aos="fade-up" data-aos-delay="200">{{ .title | markdownify }}</span></h1>
         </div>
       </div>
       {{ range .plan_item }}
@@ -141,8 +141,8 @@
       {{ with .Site.Data.homepage.gallery }}
       <div class="col-12 text-center">
         <div class="section-title">
-          <h6 class="sm"><span data-aos="text-reveal" data-aos-once="true">{{ .subtitle | markdownify }}</span></h6>
-          <h1><span data-aos="text-reveal" data-aos-once="true">{{ .title | markdownify }}</span></h1>
+          <h6 class="sm"><span data-aos="fade-up" data-aos-delay="200">{{ .subtitle | markdownify }}</span></h6>
+          <h1><span data-aos="fade-up" data-aos-delay="500">{{ .title | markdownify }}</span></h1>
         </div>
       </div>
       {{ end }}
@@ -151,7 +151,7 @@
       {{ range first 6 $gallery }}
       <div class="col-md-6">
         <div class="portfolio-item text-center">
-          <div class="image-holder" data-aos-once="true">
+          <div class="image-holder" data-aos="fade-up" data-aos-delay="600">
             <img src="{{ .Params.Image | absURL }}" class="img-fluid" alt="{{ .Title }}">
           </div>
           <!-- <h6 class="sm product-name">{{ .Title }}</h6>
@@ -199,7 +199,7 @@
         <!-- section title -->
         <div class="section-title">
           <h6 class="sm"><span data-aos="text-reveal" data-aos-once="true">{{ .subtitle | markdownify }}</span></h6>
-          <h1><span data-aos="text-reveal" data-aos-once="true">{{ .title | markdownify }}</span></h1>
+          <h1><span data-aos="fade-up" data-aos-delay="500">{{ .title | markdownify }}</span></h1>
         </div>
       </div>
       <div class="col-lg-7">
