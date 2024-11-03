@@ -14,35 +14,21 @@ character:
 problem:
   enable : true
   bg_image : "images/shape-big.png"
-  subtitle : "What We Do"
-  title : "Design Is How<br>Things Work"
-  service_item:
-    # service item loop
-    - name : "UX & UI Design"
-      icon : "images/icon-1.svg"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
-
-    # service item loop
-    - name : "PSD to HTML"
-      icon : "images/icon-2.svg"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
-      
-    # service item loop
-    - name : "Wordpress"
-      icon : "images/icon-3.svg"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+  subtitle : ""
+  title : "Need Stunning Content<br>And Drinks That Live Up To It?"
+  content : ""
 
 ######################## Guide ############################
 guide:
   enable : true
   bg_image: "images/hero/hero-bg-3.jpg"
-  subtitle : "Cocktail Photography / Creation"
-  title : "Honest<br>Bartending"
-  content : "Aligning Your Drink and Content Aesthetic"
+  subtitle : "Introducing"
+  title : "Your Cocktail<br/>Dream Team"
+  content : "Say hello to Amy and Nick, the dynamic duo behind Bourbon & Bokeh. With Amy’s knack for capturing cocktails that pop off the screen and Nick’s talent for crafting recipes that look as good as they taste, we’re here to bridge the gap between stunning photos and the real-life drinks that match them. We’ll guide you from concept to cheers, making sure your brand’s story shines through every click and every sip."
   button:
-    enable : false
-    label : "Our Works"
-    link : "works"
+    enable : true
+    label : "About Us"
+    link : "about"
 
 ################### Plan #################################
 plan:

@@ -49,22 +49,9 @@
         <div class="section-title">
           <h6 class="sm"><span data-aos="text-reveal" data-aos-once="true">{{ .subtitle | markdownify }}</span></h6>
           <h1><span data-aos="fade-up" data-aos-delay="200">{{ .title | markdownify }}</span></h1>
+          <p>{{ .content | markdownify }}</p>
         </div>
       </div>
-      {{ range .service_item }}
-      <div class="col-lg-4 col-md-6">
-        <!-- service item -->
-        <div class="service-item">
-          <div class="icon">
-            <img src="{{ .icon }}" alt="">
-          </div>
-          <div class="content">
-            <h6 class="sm">{{ .name | markdownify }}</h6>
-            <p>{{ .content | markdownify }}</p>
-          </div>
-        </div>
-      </div>
-      {{ end }}
     </div>
   </div>
 </section>
@@ -78,6 +65,7 @@
     <div class="row">
       <div class="col-12 text-center">
         <div class="content">
+          <h6 class="text-white">{{ .subtitle | markdownify }}</h6>
           <h2 class="text-white">{{ .title | markdownify }}</h2>
           <p class="text-white mb-4 mx-auto">{{ .content | markdownify }}</p>
           {{ if .button.enable }}
