@@ -15,8 +15,8 @@ problem:
   enable : true
   bg_image : "images/shape-big.png"
   subtitle : ""
-  title : "Need Stunning Content<br>And Drinks That Live Up To It?"
-  content : ""
+  title : "Need Stunning Content?<br><br>Need Drinks That Live Up To It?"
+  content : "How We Can Help<br><br>⬇"
 
 ######################## Guide ############################
 guide:
@@ -35,22 +35,22 @@ guide:
 plan:
   enable : true
   bg_image : "images/shape-big.png"
-  subtitle : "What We Do"
+  subtitle : "How We Do It"
   title : "Design Is How<br>Things Work"
   plan_item:
     # service item loop
     - name : "UX & UI Design"
-      icon : "images/icon-1.svg"
+      # icon : ""
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
 
     # service item loop
     - name : "PSD to HTML"
-      icon : "images/icon-2.svg"
+      # icon : ""
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
       
     # service item loop
     - name : "Wordpress"
-      icon : "images/icon-3.svg"
+      # icon : ""
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
 
 
