@@ -42,17 +42,17 @@ plan:
   plan_item:
     # service item loop
     - name : "Discover & Define"
-      # icon : ""
+      icon : "fa-1"
       content : "We start by understanding your content needs, whether it’s vibrant videos, bottle shots, cocktail close-ups, or lifestyle images. Together, we explore what will make the biggest impact for your brand."
 
     # service item loop
     - name : "Budget & Blueprint"
-      # icon : ""
+      icon : "fa-2"
       content : "Next, we’ll align on budget and map out a tailored shoot plan that captures your vision while staying on target."
       
     # service item loop
     - name : "Craft & Capture"
-      # icon : ""
+      icon : "fa-3"
       content : "With cocktails perfected and shots planned, we bring your vision to life—from carefully crafted drinks to eye-catching photos. Finally, we deliver stunning visuals ready to engage and inspire."
 
 
