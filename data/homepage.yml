@@ -38,22 +38,22 @@ plan:
   enable : true
   bg_image : "images/shape-big.png"
   subtitle : "How We Do It"
-  title : "Design Is How<br>Things Work"
+  title : "From Content to Recipes"
   plan_item:
     # service item loop
-    - name : "UX & UI Design"
+    - name : "Discover & Define"
       # icon : ""
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      content : "We start by understanding your content needs, whether it’s vibrant videos, bottle shots, cocktail close-ups, or lifestyle images. Together, we explore what will make the biggest impact for your brand."
 
     # service item loop
-    - name : "PSD to HTML"
+    - name : "Budget & Blueprint"
       # icon : ""
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      content : "Next, we’ll align on budget and map out a tailored shoot plan that captures your vision while staying on target."
       
     # service item loop
-    - name : "Wordpress"
+    - name : "Craft & Capture"
       # icon : ""
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      content : "With cocktails perfected and shots planned, we bring your vision to life—from carefully crafted drinks to eye-catching photos. Finally, we deliver stunning visuals ready to engage and inspire."
 
 
 ############################# gallery ############################
