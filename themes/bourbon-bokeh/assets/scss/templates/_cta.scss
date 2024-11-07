@@ -1,5 +1,5 @@
 .cta{
-    background: url(../images/hero/hero-bg-3.jpg);
+    background: url(../images/hero/hero-bg-4.jpg);
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -16,7 +16,7 @@
         background: rgba($color: $footer-bg, $alpha: .8);
     }
     @include mobile {
-    background: url(../images/hero/hero-bg-3.jpg);
+    background: url(../images/hero/hero-bg-4.jpg);
     background-size: cover;
     background-attachment: scroll; // Use `scroll` for mobile to improve performance
     background-position: center center;
@@ -40,6 +40,7 @@
     .content{
         h2{
             margin-bottom: 10px;
+            letter-spacing: 2px;
         }
         p{
             width: 70%;

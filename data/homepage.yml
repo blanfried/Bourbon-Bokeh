@@ -64,6 +64,16 @@ gallery:
 
   # portfolio item comes from `content/gallery/` folder
 
+################# call to action ##################################3
+call_to_action:
+  enable : true
+  title : "Ready to Elevate Your Cocktail Brand?"
+  content : "Bring your vision to life with photos and drinks that captivate. Let’s create content that turns heads and cocktails that keep them coming back."
+  button:
+    enable : true
+    label : "Let's Chat"
+    link : "contact"
+
 
 ############################ testimonial ###########################
 testimonial:
@@ -90,12 +100,3 @@ testimonial:
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
-################# call to action ##################################3
-call_to_action:
-  enable : true
-  title : "Interseted In Teaming Up?"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus asperiores dignissimos cupiditate! Necessitatibus distinctio molestiae omnis tempora facere in cum?"
-  button:
-    enable : true
-    label : "Let's Chat"
-    link : "contact"
