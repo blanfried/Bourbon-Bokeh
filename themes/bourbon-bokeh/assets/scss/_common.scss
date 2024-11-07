@@ -78,8 +78,20 @@ body{
 
 // Page Title Styles
 .page-title{
-    padding: 220px 0 180px;
-    background-image: url("../images/backgrounds/page-title-bg.jpg");
+    padding: 320px 0 280px;
+    background-image: linear-gradient(rgba($footer-bg, 0.5), rgba($footer-bg, 0.8)), 
+                      url("../images/backgrounds/page-title-bg12.jpg");    background-size: cover;
+    background-position: center center;
+    position: relative;
+    h1{
+        color: $white;
+    }
+}
+
+.page-title-contact{
+    padding: 320px 0 280px;
+    background-image: linear-gradient(rgba($footer-bg, 0.5), rgba($footer-bg, 0.8)), 
+                      url("../images/backgrounds/page-title-bg.jpg");    background-size: cover;
     background-size: cover;
     background-position: center center;
     position: relative;

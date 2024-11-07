@@ -27,21 +27,21 @@ name = "About"
 URL = "about"
 weight = 2
 
-[[menu.main]]
-name = "Bartending"
-URL = "bartending"
-weight = 3
+# [[menu.main]]
+# name = "Bartending"
+# URL = "bartending"
+# weight = 3
 
-[[menu.main]]
-name = "Photography"
-URL = "photography"
-weight = 4
+# [[menu.main]]
+# name = "Photography"
+# URL = "photography"
+# weight = 4
 
 
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 5
+weight = 3
 
 
 
