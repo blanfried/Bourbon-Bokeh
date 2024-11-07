@@ -41,7 +41,7 @@
         }
     }
     &-form{
-        position: absolute;
+        position: relative;
         width: 120%;
         height: auto;
         z-index: 2;
@@ -57,8 +57,14 @@
     }
 }
 
-#map{
-    height: 900px;
+#img{
+    height: 80%;
+    background: url(../images/bb-images/photos/studio/Bourbon_and_Bokeh_Cocktail_Photography_16.jpg);
+    background-size: cover;
+    background-attachment: scroll; // Use `scroll` for mobile to improve performance
+    background-position: center right;
+    position: relative;
+    background-attachment:local;
     @include desktop{
         height: 500px;
     }
