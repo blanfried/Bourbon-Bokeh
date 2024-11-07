@@ -70,3 +70,7 @@
     content: unquote("\"#{ $fa-var }\"");
   }
 }
+
+.fa-arrow-down {
+  @include fa-icon-solid($fa-var-arrow-down);
+}
