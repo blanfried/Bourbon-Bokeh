@@ -86,6 +86,10 @@ body{
     h1{
         color: $white;
     }
+    @include mobile {
+    background-position: center right;
+    }
+
 }
 
 .page-title-contact{
