@@ -1,17 +1,23 @@
 .service{
     position: relative;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
     .section-title{
         margin-bottom: 50px;
         color: $footer-bg !important;
     }
     p {
-        margin-top: 30px;
+        margin-top: 140px;
+        font-size: 20px;
+    }
+    .probTitleOne {
+        margin-top: 60px;
     }
     i {
         font-size: 60px;
-        margin-bottom: 50px;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
     .shape-big{
         position: absolute;
@@ -43,7 +49,7 @@
         }
     }
     &::before{
-        background: url(../images/pattern.png);
+        // background: url(../images/pattern.png);
         position: absolute;
         top: 0;
         left: 0;

@@ -2,9 +2,9 @@
 character:
   enable : true
   bg_image: "images/hero/hero-bg-2.jpg"
-  subtitle : ""
+  subtitle : "Photography & Mixology"
   title : "The<br>Honest<br>Bartender"
-  content : "Stunning Photos Deserve Equally Stunning Drinks"
+  content : "Your Drinks and Photos Should Look the Same"
   button:
     enable : false
     label : "Our Works"
@@ -17,14 +17,14 @@ problem:
   subtitle : ""
   title : "Need Stunning Content?<br><br>"
   title1 : "Need Drinks That Live Up To It?"
-  content : "How We Can Help<br><br>"
+  content : "We Can Help<br><br>"
   icon : "fa-arrow-down"
 
 ######################## Guide ############################
 guide:
   enable : true
   bg_image: "images/hero/hero-bg-3.jpg"
-  subtitle : "The Duo behind Bourbon & Bokeh"
+  subtitle : "High-End Photographer Meets Professional Mixologist"
   title : "Amy & Nick"
   content : "Amy: Photographer Extraordinaire<br><br>Nick: The Cocktail Crafting Master."
   content1 : "this is her photo and those are his hands, oulala"
