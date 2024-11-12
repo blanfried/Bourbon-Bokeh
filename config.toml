@@ -69,7 +69,7 @@ map_marker = "images/marker.png"
 ############################# social site ########################
 [[params.social]]
 name = "instagram"
-icon = "fa-instagram" # fontawesome icon pack v4.7
+icon = "fa-instagram"
 link = "https://www.instagram.com/bourbon_and_bokeh"
 
 [[params.social]]

@@ -30,7 +30,7 @@
             <p>{{ .Site.Params.footer_content | markdownify }}</p>
             <ul class="social-links list-inline">
               {{ range .Site.Params.social }}
-              <li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="fa {{ .icon }}"></i></a></li>
+              <li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="fa-brands {{ .icon }}"></i></a></li>
               {{ end }}
             </ul>
             <div class="scroll-top">
