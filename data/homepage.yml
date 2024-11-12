@@ -74,6 +74,16 @@ call_to_action:
     label : "Let's Chat"
     link : "contact"
 
+################# contact ##################################3
+contact:
+  enable : true
+  title : "Have Any Questions?"
+  # content : "Bring your vision to life with photos and drinks that captivate. Let’s create content that turns heads and cocktails that keep them coming back."
+  # button:
+  #   enable : true
+  #   label : "Let's Chat"
+  #   link : "contact"
+
 
 ############################ testimonial ###########################
 testimonial:

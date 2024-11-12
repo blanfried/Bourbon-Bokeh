@@ -7,6 +7,9 @@
         left: 0;
         z-index: -1;
     }
+    .section-title {
+        margin-bottom: 80px;
+    }
     &-info{
         position: relative;
         h4{
@@ -42,7 +45,7 @@
     }
     &-form{
         position: relative;
-        width: 100%;
+        width: 116%;
         height: auto;
         z-index: 2;
         top: calc(100% + 50px); left: 0;
@@ -75,7 +78,7 @@
     background: url(../images/bb-images/logos/icons/Dark.svg);
     background-size: cover;
     background-attachment: scroll; // Use `scroll` for mobile to improve performance
-    background-position: right right;
+    // background-position: right bottom;
     position: relative;
     background-attachment:local;
     @include desktop{
