@@ -179,14 +179,14 @@
 {{ end }}
 {{ end }}
 
-{{ if .Site.Data.homepage.testimonial.enable }}
+<!-- {{ if .Site.Data.homepage.testimonial.enable }}
 {{ with .Site.Data.homepage.testimonial }}
 <section class="testimonial section">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-3 ml-lg-auto">
+      <div class="col-lg-3 ml-lg-auto"> -->
         <!-- section title -->
-        <div class="section-title">
+        <!-- <div class="section-title">
           <h6 class="sm"><span data-aos="text-reveal" data-aos-once="true">{{ .subtitle | markdownify }}</span></h6>
           <h1><span data-aos="fade-up" data-aos-delay="500">{{ .title | markdownify }}</span></h1>
         </div>
@@ -224,7 +224,53 @@
   </div>
 </section>
 {{ end }}
-{{ end }}
+{{ end }} -->
+<!-- Contact Section -->
+<section class="contact section">
+  <!-- <div class="shape-big">
+      <img src="{{`images/shape-big.png` | absURL }}" class="img-fluid" alt="big-shape">
+  </div> -->
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6">
+              <!-- Contact Info -->
+              <div class="contact-info">
+                  <div class="content">{{ .Content }}</div>
+                  <!-- Contact Form -->
+                  <div class="contact-form">
+                      <h4>Contact Form</h4>
+                      <form name="contact" method="POST" action="{{ .Site.Params.contact_form_action}}" class="row">
+                          <div class="col-md-6">
+                              <input type="text" class="form-control" placeholder="Name" name="name" id="name">
+                          </div>
+                          <div class="col-md-6">
+                              <input type="email" class="form-control" placeholder="Email" name="email" id="email">
+                          </div>
+                          <div class="col-12">
+                              <input type="text" class="form-control" placeholder="Subject" name="subject"
+                                  id="subject">
+                          </div>
+                          <div class="col-12">
+                              <textarea name="message" id="message" class="form-control"
+                                  placeholder="Type You Message Here" rows="5"></textarea>
+                          </div>
+                          <div class="col-12">
+                              <button class="btn btn-primary" type="submit">Send</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+          {{ if .Site.Params.map.enable }}
+          <div class="col-lg-6">
+              <!-- Google Map -->
+              <div id="imgHome">
+              </div>  
+          </div>
+          {{ end }}
+      </div>
+  </div>
+</section>
 
 
 {{ end }}

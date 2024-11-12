@@ -42,7 +42,7 @@
     }
     &-form{
         position: relative;
-        width: 120%;
+        width: 100%;
         height: auto;
         z-index: 2;
         top: calc(100% + 50px); left: 0;
@@ -63,6 +63,19 @@
     background-size: cover;
     background-attachment: scroll; // Use `scroll` for mobile to improve performance
     background-position: center right;
+    position: relative;
+    background-attachment:local;
+    @include desktop{
+        height: 500px;
+    }
+}
+
+#imgHome{
+    height: 70%;
+    background: url(../images/bb-images/logos/icons/Dark.svg);
+    background-size: cover;
+    background-attachment: scroll; // Use `scroll` for mobile to improve performance
+    background-position: right right;
     position: relative;
     background-attachment:local;
     @include desktop{
