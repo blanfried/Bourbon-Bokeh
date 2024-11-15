@@ -74,12 +74,13 @@
 }
 
 .imgHome{
-    padding-top: 4.5em; 
-    padding-left: 4em;
+    margin-top: 7em; 
+    margin-left: 8em;
     @include mobile{
         padding-top: 0em; 
         padding-left: 0em;
         margin-right: 1.5em;    
+        margin-top: 1em;    
         // transform: translateX(-100px);
         }
 }
