@@ -2,13 +2,9 @@
 history:
   enable : true
   image: "images/history-image.png"
-  subtitle : "History"
-  title : "Give us a task & <br> we'll implement it"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore agna liquam fina water. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit. in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-          
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
-
+  subtitle : "Mixology"
+  title : "Something Witty"
+  content : "Nick's Qualification"
 
 ################################ Team ###########################
 team:
@@ -38,13 +34,10 @@ team:
 ############################### philosophy ###########################
 philosophy:
   enable : true
-  subtitle : "Philosophy"
-  title : "We design for human, So user first"
+  subtitle : "Photography"
+  title : "Something Witty"
   image : "images/philosophy-image.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore agna liquam fina water. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit. in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-          
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
+  content : "Amy's qualifications"
 
 
 ############################ Clients ################################
