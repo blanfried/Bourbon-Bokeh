@@ -6,10 +6,8 @@ draft: false
 
 #### Contact Info
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore agna liqua fina water.
+If you have any questions or to learn more about our rates, let us know!
 
-* Tel. : +880 1672 506 744
-* Email : themefisher@gmail.com
-* Skype : Mehedi Sharif Titas
-* Whatsapp : +880 1672 506 744
-* Address : Shyamoli, Dhaka.
+* Tel. : (949) 244-5706
+* Email : contact@BourbonBokeh.com
+<!-- * Address : ... -->
