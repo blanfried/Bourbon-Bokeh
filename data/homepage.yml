@@ -3,8 +3,8 @@ character:
   enable : true
   bg_image: "images/hero/hero-bg-2.jpg"
   subtitle : "Photography & Mixology"
-  title : "The<br>Honest<br>Bartender"
-  content : "Your Drinks and Photos Should Look the Same"
+  title : "The<br>Aesthetic<br>Bartender"
+  content : "Stunning Photos, Equally Stunning Drinks"
   button:
     enable : false
     label : "Our Works"

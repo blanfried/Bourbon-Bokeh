@@ -73,15 +73,13 @@
     }
 }
 
-#imgHome{
-    height: 70%;
-    background: url(../images/bb-images/logos/icons/Dark.svg);
-    background-size: cover;
-    background-attachment: scroll; // Use `scroll` for mobile to improve performance
-    // background-position: right bottom;
-    position: relative;
-    background-attachment:local;
-    @include desktop{
-        height: 500px;
-    }
+.imgHome{
+    padding-top: 4.5em; 
+    padding-left: 4em;
+    @include mobile{
+        padding-top: 0em; 
+        padding-left: 0em;
+        margin-right: 1.5em;    
+        // transform: translateX(-100px);
+        }
 }
