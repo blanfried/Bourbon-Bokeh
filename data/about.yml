@@ -8,28 +8,22 @@ history:
 
 ################################ Team ###########################
 team:
-  enable : false
-  subtitle : "Our Strenght"
-  title : "Meet Our Team"
+  enable : true
+  subtitle : "Something"
+  title : "Meet the Duo"
   team_member:
     # team member loop
-    - name : "Mehedi Titash"
-      image : "images/team/team-member-01.jpg"
-      image_bg : "images/team/team-member-01-bg.jpg"
-      designation : "CEO & Chief"
+    - name : "Amy Van Vlear"
+      image : "images/history-image.png"
+      # image_bg : "images/history-image.png"
+      designation : "Photographer"
       
     # team member loop
-    - name : "Jarina Khatun"
-      image : "images/team/team-member-02.jpg"
-      image_bg : "images/team/team-member-02-bg.jpg"
-      designation : "Content Writter"
+    - name : "Nick Stary"
+      image : "images/history-image.png"
+      # image_bg : "images/history-image.png"
+      designation : "Mixologist"
       
-    # team member loop
-    - name : "Fahad Alam"
-      image : "images/team/team-member-03.jpg"
-      image_bg : "images/team/team-member-03-bg.jpg"
-      designation : "Ui/UX Designer"
-
 
 ############################### philosophy ###########################
 philosophy:
