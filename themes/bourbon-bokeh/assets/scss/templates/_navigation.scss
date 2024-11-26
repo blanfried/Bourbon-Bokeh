@@ -74,3 +74,66 @@
         text-align: center;
     }
 }
+
+.dropdown {
+	&:hover {
+		.dropdown-menu {
+			visibility: visible;
+			opacity: 1;
+			transform: scaleX(1);
+		}
+	}
+
+	&-item {
+		display: block;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: normal;
+		text-decoration: none;
+		padding: 15px;
+		color: #333;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		transition: .2s ease;
+
+		&:hover {
+			background: #fff;
+		}
+	}
+
+	&-menu {
+		padding: 0 15px;
+		border: 0;
+		border-radius: 0px;
+		width: 100%;
+		box-shadow: none;
+		background: none;
+		min-width: 180px;
+		top: 100%;
+		left: -10px;
+		border-radius: 0;
+		display: block;
+		visibility: hidden;
+		transition: .3s ease;
+		opacity: 0;
+		transform: scale(.8);
+		background: #fff;
+
+		@include desktop {
+			display: none;
+			opacity: 1;
+			visibility: visible;
+			transform: scale(1);
+			transform-origin: unset;
+			text-align: center;
+		}
+
+		&.show {
+			visibility: hidden;
+
+			@include desktop {
+				visibility: visible;
+				display: block;
+			}
+		}
+	}
+}
