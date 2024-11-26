@@ -26,7 +26,7 @@ guide:
   bg_image: "images/hero/hero-bg-3.jpg"
   subtitle : ""
   title : "High end Photography<br>Professional Mixology"
-  content : "Amy: Photographer Extraordinaire<br><br>Nick: The Cocktail Crafting Master."
+  content : ""
   content1 : "this is her photo and those are his hands, oulala"
   button:
     enable : true
