@@ -3,8 +3,8 @@ character:
   enable : true
   bg_image: "images/hero/hero-bg-2.jpg"
   subtitle : "Photography & Mixology"
-  title : "The<br>Aesthetic<br>Bartender"
-  content : "Stunning Photos, Equally Stunning Drinks"
+  title : "Spirits<br>in Focus"
+  content : "Crafting Signature Cocktails and Dynamic Media to Elevate Spirit Brands"
   button:
     enable : false
     label : "Our Works"
@@ -24,8 +24,8 @@ problem:
 guide:
   enable : true
   bg_image: "images/hero/hero-bg-3.jpg"
-  subtitle : "High-End Photographer | Professional Mixologist"
-  title : "Amy & Nick"
+  subtitle : ""
+  title : "High end Photography<br>Professional Mixology"
   content : "Amy: Photographer Extraordinaire<br><br>Nick: The Cocktail Crafting Master."
   content1 : "this is her photo and those are his hands, oulala"
   button:

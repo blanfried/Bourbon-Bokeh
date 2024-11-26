@@ -8,17 +8,29 @@
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav">
             <span class="navbar-toggler-icon">
-              <img src="{{`images/hamburger-icon.png` | absURL }}" class="img-fluid" alt="menu">
+              <img src="{{ `images/hamburger-icon.png` | absURL }}" class="img-fluid" alt="menu">
             </span>
           </button>
           <div class="collapse navbar-collapse" id="main-nav">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="{{ .Site.BaseURL }}" class="nav-link">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
-              </li>
               {{ range .Site.Menus.main }}
-              <li class="nav-item">
-                <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+              <li class="nav-item {{ if .HasChildren }}dropdown{{ end }}">
+                <a 
+                  class="nav-link {{ if .HasChildren }}dropdown-toggle{{ end }}" 
+                  href="{{ .URL | absURL }}" 
+                  {{ if .HasChildren }}id="dropdown{{ .Name }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"{{ end }}
+                >
+                  {{ .Name }}
+                </a>
+                {{ if .HasChildren }}
+                <ul class="dropdown-menu" aria-labelledby="dropdown{{ .Name }}">
+                  {{ range .Children }}
+                  <li class="dropdown-item">
+                    <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+                  </li>
+                  {{ end }}
+                </ul>
+                {{ end }}
               </li>
               {{ end }}
             </ul>

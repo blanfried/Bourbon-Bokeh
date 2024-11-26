@@ -27,21 +27,25 @@ name = "About"
 URL = "about"
 weight = 2
 
-# [[menu.main]]
-# name = "Bartending"
-# URL = "bartending"
-# weight = 3
+[[menu.main]]
+name = "Services"
+weight = 3
+hasChildren = true
 
-# [[menu.main]]
-# name = "Photography"
-# URL = "photography"
-# weight = 4
+  [[menu.main.children]]
+  name = "Bartending"
+  URL = "bartending"
+  weight = 1
 
+  [[menu.main.children]]
+  name = "Photography"
+  URL = "photography"
+  weight = 2
 
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 3
+weight = 4
 
 
 
@@ -54,7 +58,7 @@ home = "Home"
 description = "This is meta description"
 author = "TheBaerBønes"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/xnnqzzpp" # contact form works with https://formspree.io
 # footer content
 footer_content = ""
 

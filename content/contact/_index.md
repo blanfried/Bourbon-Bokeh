@@ -9,5 +9,5 @@ draft: false
 If you have any questions or to learn more about our rates, let us know!
 
 * Tel. : (949) 244-5706
-* Email : contact@BourbonBokeh.com
+* Email : bourbonnbokeh@gmail.com
 <!-- * Address : ... -->
