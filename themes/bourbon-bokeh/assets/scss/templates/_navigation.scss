@@ -96,12 +96,13 @@
 		transition: .2s ease;
 
 		&:hover {
-			background: #fff;
+			background: #dd5a02;
+            color: #f5eede;
 		}
 	}
 
 	&-menu {
-		padding: 0 15px;
+		padding: 0 0px;
 		border: 0;
 		border-radius: 0px;
 		width: 100%;

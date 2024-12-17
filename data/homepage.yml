@@ -26,8 +26,8 @@ guide:
   bg_image: "images/hero/hero-bg-3.jpg"
   subtitle : ""
   title : "High end Photography<br>Professional Mixology"
-  content : ""
-  content1 : "this is her photo and those are his hands, oulala"
+  content : "this is her photo and those are his hands, oulala"
+  content1 : ""
   button:
     enable : true
     label : "Learn More"
