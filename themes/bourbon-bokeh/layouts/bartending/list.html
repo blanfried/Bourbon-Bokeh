@@ -2,44 +2,11 @@
 
 {{ partial "page-title.html" . }}
 
-<!-- History Section Start -->
-{{ if .Site.Data.about.history.enable }}
-{{ with .Site.Data.about.history }}
-<section class="history section">
-  <!-- <div class="shape-big">
-    <img src="{{`images/shape-big.png` | absURL}}" class="img-fluid" alt="big-shape">
-  </div> -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 align-self-center">
-        <!-- History Content -->
-        <div class="history-content">
-          <!-- section title -->
-          <div class="section-title">
-            <h6 class="sm"><span data-aos="text-reveal" data-aos-once="true">{{ .subtitle | markdownify }}</span></h6>
-            <h2><span data-aos="text-reveal" data-aos-once="true">{{ .title | markdownify }}</span></h2>
-          </div>
-          <div class="content">
-            {{ .content | markdownify}}
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-5 ml-auto">
-        <!-- History Image -->
-        <div class="history-image">
-          <img src="{{ .image | absURL}}" class="w-100" alt="history">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- History Section End -->
+
 
 <!-- Team Section Start -->
-{{ if .Site.Data.about.team.enable }}
-{{ with .Site.Data.about.team }}
+{{ if .Site.Data.bartending.team.enable }}
+{{ with .Site.Data.bartending.team }}
 <section class="team section">
   <div class="container">
     <div class="row">
@@ -50,23 +17,6 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-center">
-      {{ range .team_member }}
-      <div class="col-lg-4 col-md-6">
-        <!-- Team Member -->
-        <div class="team-member">
-          <!-- Member Image -->
-          <div class="team-member-image" style="background-image: url('{{ .image_bg | absURL}}');">
-            <img src="{{ .image | absURL}}" alt="team-member-image">
-          </div>
-          <!-- Member Content -->
-          <div class="team-member-content text-center">
-            <h6 class="sm">{{ .name | markdownify}}</h6>
-            <span>{{ .designation | markdownify }}</span>
-          </div>
-        </div>
-      </div>
-      {{ end }}
     </div>
   </div>
 </section>
@@ -74,9 +24,9 @@
 {{ end }}
 <!-- Team Section End -->
 
-<!-- Philosophy Section Start -->
-{{ if .Site.Data.about.philosophy.enable }}
-{{ with .Site.Data.about.philosophy }}
+<!-- In Studio / Lifestyle Content Section Start -->
+{{ if .Site.Data.bartending.philosophy.enable }}
+{{ with .Site.Data.bartending.philosophy }}
 <section class="philosophy section">
   <div class="container">
     <div class="row">
@@ -100,10 +50,94 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- Philosophy Section End -->
+<!-- In Studio / Lifestyle Content Section End -->
 
-{{ if .Site.Data.about.clients.enable }}
-{{ with .Site.Data.about.clients }}
+<!-- Recipe Development and Cocktail Creation Section Start -->
+{{ if .Site.Data.bartending.philosophy.enable }}
+{{ with .Site.Data.bartending.philosophy }}
+<section class="philosophy section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 align-self-center ml-auto">
+        <div class="philosophy-content">
+          <!-- section title -->
+          <div class="section-title">
+            <h6 class="sm"><span data-aos="text-reveal" data-aos-once="true">{{ .subtitle | markdownify }}</span></h6>
+            <h2><span data-aos="text-reveal" data-aos-once="true">{{ .title | markdownify}}</h2>
+          </div>
+          <div class="content">{{ .content | markdownify }}</div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="philosophy-image mb-5 mb-lg-0">
+          <img src="{{ .image | absURL}}" alt="philosophy" class="w-100">
+        </div>
+      </div>  
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- Recipe Development and Cocktail Creation Section End -->
+
+<!-- On Location Shoots Section Start -->
+{{ if .Site.Data.bartending.philosophy.enable }}
+{{ with .Site.Data.bartending.philosophy }}
+<section class="philosophy section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="philosophy-image mb-5 mb-lg-0">
+          <img src="{{ .image | absURL}}" alt="philosophy" class="w-100">
+        </div>
+      </div>
+      <div class="col-lg-5 align-self-center ml-auto">
+        <div class="philosophy-content">
+          <!-- section title -->
+          <div class="section-title">
+            <h6 class="sm"><span data-aos="text-reveal" data-aos-once="true">{{ .subtitle | markdownify }}</span></h6>
+            <h2><span data-aos="text-reveal" data-aos-once="true">{{ .title | markdownify}}</h2>
+          </div>
+          <div class="content">{{ .content | markdownify }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- On Location Shoots Section End -->
+
+<!-- Content Retainers Section Start -->
+{{ if .Site.Data.bartending.philosophy.enable }}
+{{ with .Site.Data.bartending.philosophy }}
+<section class="philosophy section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 align-self-center ml-auto">
+        <div class="philosophy-content">
+          <!-- section title -->
+          <div class="section-title">
+            <h6 class="sm"><span data-aos="text-reveal" data-aos-once="true">{{ .subtitle | markdownify }}</span></h6>
+            <h2><span data-aos="text-reveal" data-aos-once="true">{{ .title | markdownify}}</h2>
+          </div>
+          <div class="content">{{ .content | markdownify }}</div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="philosophy-image mb-5 mb-lg-0">
+          <img src="{{ .image | absURL}}" alt="philosophy" class="w-100">
+        </div>
+      </div>  
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- Content Retainers Section End -->
+
+{{ if .Site.Data.bartending.clients.enable }}
+{{ with .Site.Data.bartending.clients }}
 <section class="client section">
   <div class="container">
     <div class="row">
@@ -128,5 +162,62 @@
 </section>
 {{ end }}
 {{ end }}
+
+
+{{ if .Site.Data.bartending.call_to_action.enable }}
+{{ with .Site.Data.bartending.call_to_action }}
+<section class="section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="content">
+          <h2 class="text-white">{{ .title | markdownify }}</h2>
+          <p class="text-white mb-4 mx-auto">{{ .content | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-primary">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ if .Site.Data.homepage.plan.enable }}
+{{ with .Site.Data.homepage.plan }}
+<section class="service section" id="services">
+  <!-- <div class="shape-big">
+    <img src="{{ .bg_image | absURL }}" class="img-fluid" alt="big-shape">
+  </div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <!-- section title -->
+        <div class="section-title">
+          <h6 class="sm"><span data-aos="fade-up" data-aos-delay="500">{{ .subtitle | markdownify }}</span></h6>
+          <h1><span data-aos="fade-up" data-aos-delay="200">{{ .title | markdownify }}</span></h1>
+        </div>
+      </div>
+      {{ range .plan_item }}
+      <div class="col-lg-4 col-md-6">
+        <!-- service item -->
+        <div class="service-item">
+          <i class="fa-solid {{ .icon }}" data-aos="text-reveal" data-aos-once="false" style="margin-bottom: 1em;"></i>
+          <div class="content">
+            <h6 class="lg"><span data-aos="text-reveal" data-aos-once="false">{{ .name | markdownify }}</span></h6>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
 
 {{ end }}

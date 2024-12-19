@@ -1,0 +1,70 @@
+#########################3 history ############################
+history:
+  enable : true
+  image: "images/history-image.png"
+  subtitle : "Mixology"
+  title : "Something Witty"
+  content : "Nick's Qualification"
+
+################################ Team ###########################
+title:
+  enable : true
+  subtitle : ""
+  title : "Our Content Creation Services"
+      
+
+############################### philosophy ###########################
+studio:
+  enable : true
+  subtitle : "curated visuals crafted with care"
+  title : "In Studio <br/> Lifestyle Content"
+  image : "images/philosophy-image.jpg"
+  content : "Creatively styled and thoughtfully produced photo and video content for your brand’s website and social media."
+
+recipe:
+  enable : true
+  subtitle : "original flavors, stunning presentation"
+  title : "Recipe Development <br/> and Cocktail Creation"
+  image : "images/philosophy-image.jpg"
+  content : "Cocktails that are created specifically to highlight / compliment your spirits, and elevate your bar program."
+
+location:
+  enable : true
+  subtitle : "authentic storytelling, where it happens"
+  title : "On Location Shoots"
+  image : "images/philosophy-image.jpg"
+  content : "In-action shots and portraits, venue details, on-site bar program photos- to tell more of your story and show the heart behind your brand."
+
+retainers:
+  enable : true
+  subtitle : "consistent creativity, month after month"
+  title : "Content Retainers"
+  image : "images/philosophy-image.jpg"
+  content : "On-going, regular content for your social media audiences and product launches."
+
+
+############################ Clients ################################
+clients:
+  enable : false
+  subtitle : "Our Clients"
+  title : "They Trust Us"
+  clients_logo:
+    - images/clients/client-logo-01.jpg
+    - images/clients/client-logo-02.jpg
+    - images/clients/client-logo-03.jpg
+    - images/clients/client-logo-04.jpg
+    - images/clients/client-logo-05.jpg
+    - images/clients/client-logo-06.jpg
+    - images/clients/client-logo-07.jpg
+    - images/clients/client-logo-08.jpg
+
+
+################# call to action ##################################3
+call_to_action:
+  enable : true
+  title : "Elevate Your Brand – Starting at $750"
+  content : "Inquire now for a custom quote!"
+  button:
+    enable : true
+    label : "Let’s Get to Work"
+    link : "contact"
