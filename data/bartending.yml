@@ -8,49 +8,98 @@ title:
 ############################### philosophy ###########################
 small:
   enable : true
-  subtitle : "Small Event"
-  title : "50-Guest Event"
-  image : "images/philosophy-image.jpg"
-  content : "Amy's qualifications"
+  subtitle : "Small Event - $3,500"
+  title : "50-Guests"
+  image : "images/bartending/bartending2.jpg"
+  content : "
+•	2 bartenders (including 1 lead bartender)
+<br/>
+•	Full bar setup and mobile bar rental
+<br/>
+•	150 cocktails (3 cocktails per guest) from our cocktail menu
+<br/>
+•	Premium Tossware 12oz rocks glasses for every drink
+<br/>
+•	Penny Pound craft ice
+<br/>
+•	Garnishes and syrups prepared fresh for each cocktail
+<br/>
+•	Soda, soda water, and water bottles for guests (non-alcoholic options)
+<br/>
+•	8 hours of service, including set-up, event time, and teardown
+<br/>
+•	Day-of insurance coverage
+<br/>
+•	Transportation and delivery of bar materials
+"
 
 medium:
   enable : true
-  subtitle : "Medium Event"
-  title : "75-Guest Event"
-  image : "images/philosophy-image.jpg"
-  content : "Amy's qualifications"
+  subtitle : "Medium Event - $4,500"
+  title : "75-Guests"
+  image : "images/bartending/bartending5.jpg"
+  content : "
+•	3 bartenders (including 1 lead bartender)
+<br/>
+•	Full bar setup and mobile bar rental
+<br/>
+•	225 cocktails (3 cocktails per guest) from our cocktail menu
+<br/>
+•	Premium Tossware 12oz rocks glasses for every drink
+<br/>
+•	Penny Pound craft ice
+<br/>
+•	Garnishes and syrups prepared fresh for each cocktail
+<br/>
+•	Soda, soda water, and water bottles for guests (non-alcoholic options)
+<br/>
+•	8 hours of service, including set-up, event time, and teardown
+<br/>
+•	Day-of insurance coverage
+<br/>
+•	Transportation and delivery of bar materials
+"
 
 large:
   enable : true
-  subtitle : "Large Event"
-  title : "100-Guest Event"
-  image : "images/philosophy-image.jpg"
-  content : "Amy's qualifications"
+  subtitle : "Large Event - $5,500"
+  title : "100-Guests"
+  image : "images/bartending/bartending11.jpg"
+  content : "
+•	4 bartenders (including 1 lead bartender)
+<br/>
+•	Full bar setup and mobile bar rental
+<br/>
+•	300 cocktails (3 cocktails per guest) from our cocktail menu
+<br/>
+•	Premium Tossware 12oz rocks glasses for every drink
+<br/>
+•	Penny Pound craft ice
+<br/>
+•	Garnishes and syrups prepared fresh for each cocktail
+<br/>
+•	Soda, soda water, and water bottles for guests (non-alcoholic options)
+<br/>
+•	8 hours of service, including set-up, event time, and teardown
+<br/>
+•	Day-of insurance coverage
+<br/>
+•	Transportation and delivery of bar materials
+"
 
 
 ############################ Menu ################################
 title1:
   enable : true
-  subtitle : ""
+  subtitle : "The Favorites"
   title : "Our Menu"
 
 menu:
   enable : true
   subtitle : ""
   title : ""
-  image : "images/philosophy-image.jpg"
+  image : "images/bartending/menu.svg"
   content : ""
-
-
-################# call to action ##################################3
-call_to_action:
-  enable : true
-  title : "Ready to Elevate Your Cocktail Brand?"
-  content : "Bring your vision to life with photos and drinks that captivate. Let’s create content that turns heads and cocktails that keep them coming back."
-  button:
-    enable : true
-    label : "Let's Chat"
-    link : "contact"
 
 
 ################### Plan #################################
@@ -74,6 +123,17 @@ plan:
     - name : "Craft & Capture"
       icon : "fa-3"
       content : "With cocktails perfected and shots planned, we bring your vision to life—from carefully crafted drinks to eye-catching photos. Finally, we deliver stunning visuals ready to engage and inspire."
+
+
+################# call to action ##################################3
+call_to_action:
+  enable : true
+  title : "Ready to Elevate Your Cocktail Brand?"
+  content : "Bring your vision to life with photos and drinks that captivate. Let’s create content that turns heads and cocktails that keep them coming back."
+  button:
+    enable : true
+    label : "Let's Chat"
+    link : "contact"
 
 
 ################### About Pricing #################################
