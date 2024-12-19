@@ -51,6 +51,23 @@ URL = "contact"
 weight = 3
 
 
+############################## footer navigation ###########################
+[[menu.footer]]
+name = "Content"
+URL = "content/"
+weight = 1
+
+[[menu.footer]]
+name = "Bartending"
+URL = "bartending/"
+weight = 2
+
+[[menu.footer]]
+name = "Contact"
+URL = "contact"
+weight = 3
+
+
 
 
 #################### default parameters ##############################
