@@ -111,27 +111,27 @@ plan:
   plan_item:
     # service item loop
     - name : "Custom Bar Setup"
-      icon : "fa-1"
+      # icon : "fa-1"
       content : "Each event includes a custom mobile bar setup that ensures cocktails are served with precision and care."
 
     # service item loop
-    - name : "Craft Cocktails Made Fresh On-Site"
-      icon : "fa-2"
+    - name : "Craft Cocktails<br/>Made Fresh On-Site"
+      # icon : "fa-2"
       content : "We mix every cocktail fresh at the event using only the highest-quality ingredients, syrups, and garnishes."
       
     # service item loop
     - name : "Experienced Bartenders"
-      icon : "fa-3"
+      # icon : "fa-3"
       content : "Our bartenders are highly trained, efficient, and knowledgeable about craft cocktails, ensuring a premium guest experience."
 
     # service item loop
     - name : "No Wasted Alcohol"
-      icon : "fa-4"
+      # icon : "fa-4"
       content : "Because you purchase the alcohol directly, any unused bottles are yours to keep, reducing waste and increasing value."
 
     # service item loop
     - name : "Luxury Details"
-      icon : "fa-5"
+      # icon : "fa-5"
       content : "We prioritize premium presentation with crystal-clear ice, fresh garnishes, and elegant, shatter-proof Tossware glasses."
 
 
