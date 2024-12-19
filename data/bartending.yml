@@ -2,7 +2,7 @@
 title:
   enable : true
   subtitle : ""
-  title : "Popular Bartending Packages"
+  title : "Bartending Packages & Menu"
       
 
 ############################### philosophy ###########################
@@ -89,10 +89,10 @@ large:
 
 
 ############################ Menu ################################
-title1:
-  enable : true
-  subtitle : "The Favorites"
-  title : "Our Menu"
+# title1:
+#   enable : true
+#   subtitle : "The Favorites"
+#   title : "Our Menu"
 
 menu:
   enable : true
@@ -110,19 +110,29 @@ plan:
   title : "Our Pricing Reflects Quality of Service"
   plan_item:
     # service item loop
-    - name : "Discover & Define"
+    - name : "Custom Bar Setup"
       icon : "fa-1"
-      content : "We start by understanding your content needs, whether it’s vibrant videos, bottle shots, cocktail close-ups, or lifestyle images. Together, we explore what will make the biggest impact for your brand."
+      content : "Each event includes a custom mobile bar setup that ensures cocktails are served with precision and care."
 
     # service item loop
-    - name : "Budget & Blueprint"
+    - name : "Craft Cocktails Made Fresh On-Site"
       icon : "fa-2"
-      content : "Next, we’ll align on budget and map out a tailored shoot plan that captures your vision while staying on target."
+      content : "We mix every cocktail fresh at the event using only the highest-quality ingredients, syrups, and garnishes."
       
     # service item loop
-    - name : "Craft & Capture"
+    - name : "Experienced Bartenders"
       icon : "fa-3"
-      content : "With cocktails perfected and shots planned, we bring your vision to life—from carefully crafted drinks to eye-catching photos. Finally, we deliver stunning visuals ready to engage and inspire."
+      content : "Our bartenders are highly trained, efficient, and knowledgeable about craft cocktails, ensuring a premium guest experience."
+
+    # service item loop
+    - name : "No Wasted Alcohol"
+      icon : "fa-4"
+      content : "Because you purchase the alcohol directly, any unused bottles are yours to keep, reducing waste and increasing value."
+
+    # service item loop
+    - name : "Luxury Details"
+      icon : "fa-5"
+      content : "We prioritize premium presentation with crystal-clear ice, fresh garnishes, and elegant, shatter-proof Tossware glasses."
 
 
 ################# call to action ##################################3
