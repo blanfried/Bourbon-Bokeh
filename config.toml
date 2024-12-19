@@ -105,3 +105,9 @@ link = ""
 name = ""
 icon = "" # fontawesome icon pack v4.7
 link = ""
+
+############################# footer socials ########################
+[[params.footer.social]]
+name = "instagram"
+icon = "fa-instagram"
+link = "https://www.instagram.com/bourbon_and_bokeh"
