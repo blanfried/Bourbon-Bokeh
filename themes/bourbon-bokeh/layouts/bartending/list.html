@@ -165,11 +165,11 @@
       {{ range .plan_item }}
       <div class="col-lg-4 col-md-6">
         <!-- service item -->
-        <div class="service-item">
-          <i class="fa-solid {{ .icon }}" data-aos="text-reveal" data-aos-once="false" style="margin-bottom: 1em;"></i>
+        <div class="service-item" data-aos="fade-up" data-aos-delay="100">
+          <i class="fa-solid {{ .icon }}" data-aos="fade-up" data-aos-delay="200" style="margin-bottom: 1em;"></i>
           <div class="content">
-            <h6 class="lg"><span data-aos="text-reveal" data-aos-once="false">{{ .name | markdownify }}</span></h6>
-            <p>{{ .content | markdownify }}</p>
+            <h6 class="lg"><span data-aos="fade-up" data-aos-delay="200">{{ .name | markdownify }}</span></h6>
+            <p data-aos="fade-up" data-aos-delay="200">{{ .content | markdownify }}</p>
           </div>
         </div>
       </div>
