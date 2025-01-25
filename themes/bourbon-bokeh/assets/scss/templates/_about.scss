@@ -79,3 +79,13 @@
         margin-bottom: 20px;
     }
 }
+
+.philosophy-image img {
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure proper centering */
+
+    @include mobile {
+        width: 100%;
+    }
+}
