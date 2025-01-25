@@ -17,7 +17,22 @@
     }
 }
 
+.bartending-title {
+    font-size: 60px;
+    max-width: 100%;
+    @include mobile {
+        font-size: 40px;
+        word-wrap: break-word; /* Forces wrapping for long words */
+        overflow-wrap: break-word; /* Modern property for word wrapping */
+    }
+}
+
 .team{
+    max-width: 100%;
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    text-align: center;
     &-member{
         @include desktop {
             margin-bottom: 30px;
@@ -46,6 +61,10 @@
 }
 
 .philosophy{
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    text-align: center;
     &-content{
         .section-title{
             margin-bottom: 25px;
